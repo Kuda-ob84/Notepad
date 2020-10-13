@@ -18,7 +18,7 @@
             <Button Command="ApplicationCommands.Save">
                 <Image Source="C:\Users\Dauken\source\repos\Notepad\Notepad\bin\Debug\Images\disk.png" Width="16" Height="16" />
             </Button>
-            <Separator />
+            <Separator/>
             <ToggleButton Command="EditingCommands.ToggleBold" Name="btnBold">
                 <Image Source="C:\Users\Dauken\source\repos\Notepad\Notepad\bin\Debug\Images\text_bold.png" Width="16" Height="16" />
             </ToggleButton>
@@ -28,14 +28,17 @@
             <ToggleButton Command="EditingCommands.ToggleUnderline" Name="btnUnderline">
                 <Image Source="C:\Users\Dauken\source\repos\Notepad\Notepad\bin\Debug\Images\text_underline.png" Width="16" Height="16" />
             </ToggleButton>
-            <Separator />
-            <ComboBox Name="cmbFontFamily" Width="150" SelectionChanged="cmbFontFamily_SelectionChanged" />
-            <ComboBox Name="cmbFontSize" Width="50" IsEditable="True" TextBoxBase.TextChanged="cmbFontSize_TextChanged" />
+            <Separator/>
+            <ComboBox Name="cmbFontFamily" Width="150" SelectionChanged="cmbFontFamily_SelectionChanged" SelectedIndex="0"/>
+            <ComboBox Name="cmbFontSize" Width="50" IsEditable="True" TextBoxBase.TextChanged="cmbFontSize_TextChanged" SelectedIndex="0"/>
             <ToggleButton Click="btnEncrypt_Click" Name="btnEncrypt">
                 <Image Source="C:\Users\Dauken\source\repos\Notepad\Notepad\bin\Debug\Images\closed_lock.png" Width="16" Height="16" />
             </ToggleButton>
             <ToggleButton Click="btnDecrypt_Click" Name="btnDecrypt">
                 <Image Source="C:\Users\Dauken\source\repos\Notepad\Notepad\bin\Debug\Images\open_lock.png" Width="16" Height="16" />
+            </ToggleButton>
+            <ToggleButton x:Name="btnTransparent" Click="">
+                <TextBlock Text="Перестановка"/>
             </ToggleButton>
         </ToolBar>
         <RichTextBox Name="rtbEditor" SelectionChanged="rtbEditor_SelectionChanged" />

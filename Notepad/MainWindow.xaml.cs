@@ -98,5 +98,11 @@ namespace Notepad
 			isCrypted = true;
 			btnDecrypt.IsChecked = false;
 		}
+
+		private void btnTransparent_Click(object sender, RoutedEventArgs e)
+		{
+			TansparentF tansparentF = new TansparentF(rtbEditor.Selection.Text);
+			tansparentF.ShowDialog();
+		}
 	}
 }
