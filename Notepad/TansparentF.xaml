@@ -16,6 +16,6 @@
             <TextBox x:Name="tbKey" Width="100"/>
         </StackPanel>
         <TextBox BorderThickness="1" x:Name="rtbText" Height="100" Margin="50 30 50 0" TextAlignment="Center" />
-        <TextBlock x:Name="rtbCrypt" Background="LightBlue" Height="15" Margin="50,20,50.453,0" TextWrapping="Wrap" />
+        <TextBlock x:Name="rtbCrypt" Background="LightBlue" Height="117" Margin="50,20,50.453,0" TextWrapping="Wrap" />
     </StackPanel>
 </Window>

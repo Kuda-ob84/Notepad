@@ -37,7 +37,7 @@
             <ToggleButton Click="btnDecrypt_Click" Name="btnDecrypt">
                 <Image Source="C:\Users\Dauken\source\repos\Notepad\Notepad\bin\Debug\Images\open_lock.png" Width="16" Height="16" />
             </ToggleButton>
-            <ToggleButton x:Name="btnTransparent" Click="">
+            <ToggleButton x:Name="btnTransparent" Click="btnTransparent_Click">
                 <TextBlock Text="Перестановка"/>
             </ToggleButton>
         </ToolBar>
