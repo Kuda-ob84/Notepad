@@ -40,6 +40,9 @@
             <ToggleButton x:Name="btnTransparent" Click="btnTransparent_Click">
                 <TextBlock Text="Перестановка"/>
             </ToggleButton>
+            <ToggleButton x:Name="btnPolybian" Click="btnPolybian_Click" Margin="15 0 0 0">
+                <TextBlock Text="Polybian"/>
+            </ToggleButton>
         </ToolBar>
         <RichTextBox Name="rtbEditor" SelectionChanged="rtbEditor_SelectionChanged" />
     </DockPanel>

@@ -104,5 +104,11 @@ namespace Notepad
 			TansparentF tansparentF = new TansparentF(rtbEditor.Selection.Text);
 			tansparentF.ShowDialog();
 		}
+
+		private void btnPolybian_Click(object sender, RoutedEventArgs e)
+		{
+			PolybiusWindow polybiusWindow = new PolybiusWindow();
+			polybiusWindow.ShowDialog();
+		}
 	}
 }
